@@ -1,0 +1,21 @@
+.textarea-title {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20.8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.textarea-content {
+    border-radius: 13px;
+    border: 2px solid rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(7.5px);
+    padding: 10px;
+    width: 100%;
+}
+
+.textarea-content::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}

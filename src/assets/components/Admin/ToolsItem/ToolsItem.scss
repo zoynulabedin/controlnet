@@ -1,0 +1,35 @@
+.aiitem__card {
+    border-radius: 5px !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: blur(10px) !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 427px;
+    height: 221px;
+    flex-shrink: 0;
+    button {
+      display: block;
+      cursor: pointer;
+    }
+    &:hover {
+      border: 1px solid #d41c86;
+      border-image: linear-gradient(to right, #d41c86, #136ef9) 1 stretch;
+      border-image-slice: 1;
+    }
+  }
+  .toolsItem-active {
+    border: 1px solid #d41c86;
+    border-image: linear-gradient(to right, #d41c86, #136ef9) 1 stretch;
+    border-image-slice: 1;
+  }
+  
+  .item-title {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; /* 116.667% */
+  }
+  

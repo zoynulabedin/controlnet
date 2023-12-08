@@ -1,0 +1,32 @@
+.btn-content {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    background: #FFF;
+}
+
+.linear-voice-btn {
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: linear-gradient(90deg, #0197B0 0.25%, #79D65B 104.22%);
+    backdrop-filter: blur(7.5px);
+}
+
+.linear-voice-btn-title {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.product-submit-btn-title {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

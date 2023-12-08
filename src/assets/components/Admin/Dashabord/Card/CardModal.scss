@@ -1,0 +1,67 @@
+.submission-card {
+    .modal-header-text {
+        color: rgba(255, 255, 255, 0.90);
+        font-family: Inter;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .modal-header-subtext {
+        color: rgba(255, 255, 255, 0.70);
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration-line: underline;
+    }
+    .modal-card-attachment-title {
+        color: rgba(255, 255, 255, 0.80);
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .edit-button {
+        border-radius: 6px;
+        background: rgba(105, 205, 102, 0.10);
+    }
+    .add-button {
+        border-radius: 5px;
+        border: 1px solid rgba(255, 255, 255, 0.10);
+        background: #FFF;
+        backdrop-filter: blur(10px);
+    }
+    .add-button-text {
+        color: #000;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .add-to-card-text {
+        color: rgba(255, 255, 255, 0.60);
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .add-to-card-btn {
+        border-radius: 12px;
+        background: #242424;
+        width: 100%;
+    }
+    .add-to-card-btn-text {
+        color: rgba(255, 255, 255, 0.60);
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+

@@ -1,0 +1,27 @@
+.login-card {
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(36, 36, 36, 0.80);
+    backdrop-filter: blur(7.5px);
+}
+
+.login-card-text {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 150% */
+}
+
+.login-chatbox {
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(36, 36, 36, 0.80);
+    backdrop-filter: blur(7.5px);
+}
+
+.login-chatbox::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}

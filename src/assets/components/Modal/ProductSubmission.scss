@@ -1,0 +1,77 @@
+#userInput {
+  padding: 20px 0px 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#chat-box {
+  border: 1px solid #ffffff;
+  width: 90%;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #0c0c0c;
+  color: #ffffff;
+}
+
+// ::placeholder {  
+//     color: #ffffff;
+// }
+
+#chat-btn-grp {
+  position: absolute;
+  z-index: 2;
+  right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.chat-btn {
+  padding: 5px;
+  color: linear-gradient(91.48deg, #84bd00 1.26%, #00a3e0 101.22%);
+}
+
+.user-prompt {
+  border: 1px;
+  width: 90%;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #5f6369;
+  color: #ffffff;
+}
+
+.scrollable-div {
+  max-height: 600px;
+  overflow-y: auto;
+  scrollbar-width: 3px;
+  scrollbar-color: rgba(155, 155, 155, 0.7) transparent;
+}
+
+.scrollable-div::-webkit-scrollbar {
+  width: 7px;
+}
+
+.scrollable-div::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollable-div::-webkit-scrollbar-thumb {
+  background-color: rgba(155, 155, 155, 0.7);
+  border-radius: 20px;
+  border: transparent;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(1440deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(1440deg); }
+}
+
+.rotate {
+  -webkit-animation: spin 3s linear 1;
+  animation: spin 3s linear 1;
+}

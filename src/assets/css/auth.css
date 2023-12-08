@@ -1,0 +1,104 @@
+.login-title {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 135% */
+}
+
+.login-description {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 144.444% */
+}
+
+.login-subtitle {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.forgot-passoword {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.not-have-account {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.to-sign-up {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.signup-modal-title {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.checkbox-overview {
+    color: rgba(255, 255, 255, 0.60);
+    /* font-family: Inter; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 144.444% */
+}
+
+.support-link {
+    color: rgba(255, 255, 255, 0.80);
+    /* font-family: Inter; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration-line: underline;
+}
+
+.logo-responsive {
+    width: 161px;
+}
+
+@media screen and (max-width: 1024px) {
+    .logo-responsive {
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .logo-responsive {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .logo-responsive {
+        width: 50px;
+    }
+}

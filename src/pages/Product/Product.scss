@@ -1,0 +1,69 @@
+.background-color {
+  background-color: transparent !important;
+}
+
+.header-plus {
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(7.5px);
+}
+.menu {
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: #141414;
+}
+
+.black-background-popover .ant-popover-inner {
+  background-color: black;
+}
+
+.menu-text {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.menu-name {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}   
+.menu-role {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.menu-wallet-text {
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 162.2%; /* 19.464px */
+}
+.menu-wallet-credit {
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.menu-step {
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

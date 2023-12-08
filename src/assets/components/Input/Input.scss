@@ -1,0 +1,30 @@
+.input-title {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20.8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.input-content {
+    border-radius: 13px;
+    border: 2px solid rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(7.5px);
+    padding: 10px;
+    width: 100%;
+}
+
+.input-content::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.selected-model-text {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

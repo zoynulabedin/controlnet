@@ -1,0 +1,14 @@
+.notification-drawer {
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: #141414;
+}
+
+.notification-drawer-title {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
